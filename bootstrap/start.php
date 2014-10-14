@@ -28,6 +28,7 @@ $env = $app->detectEnvironment(array(
 
 	'local' => array('homestead'),
 
+    'production' => array('kryptoscorp.com'),
 ));
 
 /*

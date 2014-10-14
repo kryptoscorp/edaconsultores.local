@@ -17,8 +17,12 @@
 | loading of any our classes "manually". Feels great to relax.
 |
 */
-
+//loval env
 require __DIR__.'/../bootstrap/autoload.php';
+
+//production env
+//require __DIR__.'/../laravel/bootstrap/autoload.php';
+
 
 /*
 |--------------------------------------------------------------------------
@@ -31,8 +35,11 @@ require __DIR__.'/../bootstrap/autoload.php';
 | the responses back to the browser and delight these users.
 |
 */
-
+//local env
 $app = require_once __DIR__.'/../bootstrap/start.php';
+
+//production env
+//$app = require_once __DIR__.'/../laravel/bootstrap/start.php';
 
 /*
 |--------------------------------------------------------------------------

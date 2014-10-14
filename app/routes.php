@@ -11,7 +11,26 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+
+
+Route::get('/', 'EdaController@showHome');
+
+ //array('uses'=>'ContentController@index', 'as'=>'content'))
+
+Route::get('nosotros',array('uses'=>'EdaController@showNosotros','as'=>'nosotros'));
+
+Route::get('servicios', array('uses'=>'EdaController@showServicios','as'=>'servicios'));
+
+Route::get('pca',array ('uses'=>'EdaController@showPca','as'=>'pca'));
+
+Route::get('contacto',array ('uses'=>'EdaController@showContacto','as'=>'contacto'));
+
+Route::post('contacto',array ('uses'=>'EdaController@sendMail'));
+
+
+
+
+
+
+
+

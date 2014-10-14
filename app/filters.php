@@ -54,6 +54,30 @@ Route::filter('auth.basic', function()
 	return Auth::basic();
 });
 
+Route::filter('admin', function()
+{
+	if (Auth::guest())
+	{
+		if (Request::ajax())
+		{
+			return Response::make('Unauthorized', 401);
+		}
+		else
+		{
+			return Redirect::guest('login');
+		}
+	}
+
+	if (Auth::check()) {
+		if(!Auth::user()->getAdmin()){
+			Session::flash('message','Usuario no autorizado, ingrese con una cuenta válida');
+			return Redirect::to('home');
+		} else {
+			
+		}
+	}
+});
+
 /*
 |--------------------------------------------------------------------------
 | Guest Filter
