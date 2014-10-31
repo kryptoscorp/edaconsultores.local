@@ -37,9 +37,6 @@
 				{{ Form::submit('Enviar mensaje', array('class' => 'btn btn-primary col-lg-offset-3'))}}
 		</fieldset>
 	{{ Form::close() }}
-	<div class="col-md-4">
-		{{ HTML::image ('img/logo_Kryptos_equipos.jpg','Responsive image', array('class' => 'img-responsive img-rounded')) }}
-	</div>
 </div>
 
 @stop

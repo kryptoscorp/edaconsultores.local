@@ -15,17 +15,22 @@
 
 Route::get('/', 'EdaController@showHome');
 
- //array('uses'=>'ContentController@index', 'as'=>'content'))
+//array('uses'=>'ContentController@index', 'as'=>'content'))
 
 Route::get('nosotros',array('uses'=>'EdaController@showNosotros','as'=>'nosotros'));
 
 Route::get('servicios', array('uses'=>'EdaController@showServicios','as'=>'servicios'));
 
-Route::get('pca',array ('uses'=>'EdaController@showPca','as'=>'pca'));
+Route::get('pca', array('uses'=>'EdaController@showPca','as'=>'pca'));
 
 Route::get('contacto',array ('uses'=>'EdaController@showContacto','as'=>'contacto'));
 
 Route::post('contacto',array ('uses'=>'EdaController@sendMail'));
+
+
+Route::get('/prueba', function(){
+	return "Hola mundo";
+});
 
 
 

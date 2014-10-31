@@ -25,11 +25,8 @@ return array(
 	| point for web requests into these applications from the outside.
 	|
 	*/
-	//local env
-	'public' => __DIR__.'/../public',
 
-	//produtcion env
-	//'public' => __DIR__.'/../../www',
+	'public' => __DIR__.'/../public',
 
 	/*
 	|--------------------------------------------------------------------------

@@ -12,22 +12,22 @@
         <meta content="" name="website EDA"></meta>
         <meta content="" name="Ronny Arvelo"></meta>
 
-
+        
         <!-- CSS are placed here -->
         {{ HTML::style('css/bootstrap.css') }}
         {{ HTML::style('css/bootstrap-responsive.css') }}
         {{ HTML::style('css/font-awesome.min.css') }}
+        @yield('header')
 
-        <!-- otra forma de importar
-        {{ HTML::style('//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css') }}
-        {{ HTML::style('//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css') }}-->
 
         
     </head>
 
-    <body style="margin-top:20px">   
+    <body style="margin-top:2px">   
     <div class="container">
-    {{ HTML::image ('img/logo_eda.gif','Responsive image', array('class' => 'img-responsive img-rounded')) }}
+        <div id="logo">{{ HTML::image ('img/logo_eda.gif','Responsive image', array('class' => 'img-responsive img-rounded')) }}
+        </div>
+
         <!--nav-->
     <div class="row">
         <nav class="navbar navbar-default" role="navigation">
@@ -53,14 +53,14 @@
                         @else
                             <li>
                         @endif
-                            <a href="{{{ URL::action('EdaController@showNosotros') }}}">quienes somos</a>
+                            <a href="{{{ URL::action('EdaController@showNosotros') }}}">Quienes somos</a>
                             </li>
                         @if(URL::current()==URL::route('servicios'))
                             <li class="active">
                         @else
                             <li>
                         @endif
-                            <a href="{{{ URL::action('EdaController@showServicios') }}}">servicios</a>
+                            <a href="{{{ URL::action('EdaController@showServicios') }}}">Servicios</a>
                             </li>
                         @if(URL::current()==URL::route('pca'))
                             <li class="active">
@@ -74,7 +74,7 @@
                         @else
                             <li>
                         @endif
-                            <a href="{{{ URL::action('EdaController@showContacto') }}}">contacto</a>
+                            <a href="{{{ URL::action('EdaController@showContacto') }}}">Contacto</a>
                             </li>
 
                     </ul>
@@ -86,7 +86,7 @@
     </div>
 
         <!--content-->
-        <div id="main" class="container-fluid">
+        <div id="main" class="">
             {{ HTML::ul($errors->all()) }}
             @if (Session::has('message'))
                 <div class="alert alert-dismissable alert-info">
@@ -97,7 +97,7 @@
             @yield('content')
         </div>
         <br>
-        <!-- -->
+        <!--
         <div class="row">
             <nav class="navbar navbar-inverse">
                 <div class="container">
@@ -105,7 +105,7 @@
                 </div>
             </nav>
         </div>
-
+         -->
         <!--footer-->
         <div>        
             <footer id="footer" class="row">
@@ -122,21 +122,6 @@
         {{ HTML::script('/js/bootstrap.js') }}
         <script type="text/javascript">
             $(document).ready(function(){
-                $(".popover-top").popover({
-                    placement : 'top'
-                });
-                $(".popover-right").popover({
-                    placement : 'right'
-                });
-                $(".popover-bottom").popover({
-                    placement : 'bottom'
-                });
-                $(".popover-left").popover({
-                    placement : 'left'
-                });
-                $(".popover-dismiss").popover({
-                    trigger: 'focus'
-                });
                 $(window).load(function(){
                 $('.make-visible').css('visibility','visible').hide().fadeIn(2000);
                 });
