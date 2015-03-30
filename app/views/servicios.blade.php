@@ -7,7 +7,7 @@
 
 @section('content')
 <div class= 'fondoservicios'>
-  	<h2 id='servicios'>servicios</h2>
+  	<h2 id='servicios' style="margin-left: -15px">servicios</h2>
   </div>
 	<div class='izquierda'>
 		<div class='imgservicios'>

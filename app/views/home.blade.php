@@ -16,16 +16,20 @@
 
 @section('content')
 
-<div class="row">
-	<div class="">
+<div class="row" style="">
+	<div class="" style="">
 		<div class="hidden-xs hidden-sm">
 		{{ HTML::image ('img/img1.gif','Responsive image', array('class' => 'img-responsive img-rounded col-md-2-2')) }}
 		{{ HTML::image ('img/img2.gif','Responsive image', array('class' => 'img-responsive img-rounded col-md-2-2' )) }}
 		{{ HTML::image ('img/img3.gif','Responsive image', array('class' => 'img-responsive img-rounded col-md-2-2')) }}
 		</div>
 	</div>
+	<div  id="t1" class="" style="margin-left: 260px; margin-right: 60px;">
+	</div>
 </div>
-<div class="row" style="background: #EBAE33; margin-top: 2px"><br></div>
+<div class="row" style="background: #EBAE33; margin-top: 2px">
+	<br>
+</div>
 <div class="row">
 	<div class="row col-md-4">
 	<br>
