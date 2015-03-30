@@ -13,7 +13,7 @@
 
 
 
-Route::get('/', 'EdaController@showHome');
+Route::get('/',array('uses'=>'EdaController@showHome','as'=>'home'));
 
 //array('uses'=>'ContentController@index', 'as'=>'content'))
 
@@ -28,9 +28,6 @@ Route::get('contacto',array ('uses'=>'EdaController@showContacto','as'=>'contact
 Route::post('contacto',array ('uses'=>'EdaController@sendMail'));
 
 
-Route::get('/prueba', function(){
-	return "Hola mundo";
-});
 
 
 

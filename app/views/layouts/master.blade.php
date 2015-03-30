@@ -17,15 +17,18 @@
         {{ HTML::style('css/bootstrap.css') }}
         {{ HTML::style('css/bootstrap-responsive.css') }}
         {{ HTML::style('css/font-awesome.min.css') }}
+        {{ HTML::style('css/animate.css') }}
+        {{ HTML::style('/css/morphext.css') }}
         @yield('header')
 
 
         
     </head>
 
-    <body style="margin-top:2px">   
+    <body style="margin-top:2px; overflow: hidden;">   
     <div class="container">
-        <div id="logo">{{ HTML::image ('img/logo_eda.gif','Responsive image', array('class' => 'img-responsive img-rounded')) }}
+        <div id="logo">
+        {{ HTML::image ('img/logo_eda.gif','Responsive image', array('class' => 'img-rounded', 'id' => 'top-logo')) }}
         </div>
 
         <!--nav-->
@@ -86,7 +89,11 @@
     </div>
 
         <!--content-->
-        <div id="main" class="">
+        @if(URL::current()==URL::route('home'))
+            <div id="main" class="">
+        @else
+            <div id="main" class="container">
+        @endif
             {{ HTML::ul($errors->all()) }}
             @if (Session::has('message'))
                 <div class="alert alert-dismissable alert-info">
@@ -118,13 +125,33 @@
 
 
     <!-- Scripts are placed here -->
-        {{ HTML::script('https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js') }}
+        {{ HTML::script('http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js') }}
         {{ HTML::script('/js/bootstrap.js') }}
+        {{ HTML::script('/js/morphext.min.js') }}
+        @yield('script')
         <script type="text/javascript">
             $(document).ready(function(){
                 $(window).load(function(){
                 $('.make-visible').css('visibility','visible').hide().fadeIn(2000);
                 });
+
+                $('#top-logo').addClass('animated fadeInLeft');
+                var vars =[
+                        "<h3 id='an1' style='color: #FFBF00; text-align: right;'>inteligencia de negocios<br><br>diseño web</h3>",
+                        "programa de consultoria de adiestramiento",
+                        "estamos al servicio de su exito",
+                        "soluciones integrales para su negocio"
+                    ];
+
+                //while (){
+                //for (i = 0; i < vars.length; i++) {   
+                    $('#t1').html(vars[0]);
+                    $('#an1').addClass('animated rotateIn');
+                    $('#an1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',setTimeout(function(){
+                        $('#t1').addClass('animated fadeOutRight')
+                    }, 2500));        
+                //}
+
             });
         </script>
     </body>

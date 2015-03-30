@@ -6158,8 +6158,8 @@ h2{
   color: black;
   float: left;
   text-align: justify;
-  margin-right: 16px;
-  margin-left: 14px;
+  margin-right: 22px;
+  margin-left: 22px;
   margin-top: 15px;
   position: relative;
 }
@@ -6308,10 +6308,6 @@ h2{
 
 #logo{
   position: relative;
-  animation: animarLogoEda 5s infinite;
-  -moz-animation: animarLogoEda 5s infinite;
-  -o-animation: animarLogoEda 5s infinite;
-  -webkit-animation: animarLogoEda 5s infinite;
   margin-left: -14px;
   margin-right: -14px;
   border-radius: 56px;

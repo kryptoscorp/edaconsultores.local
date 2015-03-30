@@ -7,7 +7,7 @@
 
 @section('content')
   <div class= 'fondoquienessomos'>
-  	<h2 id='quienesSomos'>quienes somos</h2>
+  	<h2 id='quienessomos'>quienes somos</h2>
   </div>
 	<div class='izquierda'>
 		<div id='imgnosotros'>
