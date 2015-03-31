@@ -142,7 +142,7 @@
                         "estamos al servicio de su exito",
                         "soluciones integrales para su negocio"
                     ];
-
+                    /*
                 //while (){
                 //for (i = 0; i < vars.length; i++) {   
                     $('#t1').html(vars[0]);
@@ -151,7 +151,7 @@
                         $('#t1').addClass('animated fadeOutRight')
                     }, 2500));        
                 //}
-
+                    */
             });
         </script>
     </body>
