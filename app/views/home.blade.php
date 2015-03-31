@@ -24,7 +24,9 @@
 		{{ HTML::image ('img/img3.gif','Responsive image', array('class' => 'img-responsive img-rounded col-md-2-2')) }}
 		</div>
 	</div>
-	<div  id="t1" class="" style="margin-left: 260px; margin-right: 60px;">
+	<div  id="" class="" style="margin-left: 260px; margin-top: -14px;">
+	<script>if (typeof em5 === 'undefined'){var em5 = window.addEventListener ? "addEventListener" : "attachEvent";var er5 = window[em5];var me5 = em5 == "attachEvent" ? "onmessage" : "message";er5(me5,function (e) {var s5= e.data;if (s5.substring(0,10) == "changeSize"){document.getElementById(s5.substring(s5.indexOf("html5maker")+10)).style.height=s5.substring(10, s5.indexOf("html5maker"));}},false);}</script>
+	<iframe id="html5b1781d2cb1cb29d1450c0204493479aaebedaa76c48e" src="/anm/b1781d2cb1cb29d1450c0204493479aaebedaa76c48e/b1781d2cb1cb29d1450c0204493479aaebedaa76c48e.html" width="100%" height="160" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
 	</div>
 </div>
 <div class="row" style="background: #EBAE33; margin-top: 2px">
