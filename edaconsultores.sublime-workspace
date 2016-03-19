@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"v",
+				"vars"
+			],
+			[
+				"visibility",
+				"visibility: 〔property〕"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"ad",
+				"addClass〔function〕"
+			],
+			[
+				"fa",
+				"fadeOut〔function〕"
+			],
+			[
+				"ani",
+				"animation"
+			],
+			[
+				"margin-",
+				"margin-left: 〔property〕"
+			],
+			[
+				"mar",
+				"margin-right: 〔property〕"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"st",
+				"style=〔attribute〕"
+			],
+			[
 				"ifar",
 				"ifarhu"
 			],
@@ -46,10 +86,6 @@
 			[
 				"E",
 				"Especie"
-			],
-			[
-				"h",
-				"h1	Tag"
 			],
 			[
 				"con",
@@ -176,10 +212,6 @@
 				"codEspecie"
 			],
 			[
-				"fa",
-				"familia"
-			],
-			[
 				"nombre",
 				"nombreCient"
 			],
@@ -203,8 +235,17 @@
 			"file": "app/routes.php",
 			"settings":
 			{
-				"buffer_size": 973,
+				"buffer_size": 940,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "clave para animaciones\n//\ninteligencia de negocios diseño web\n\nprograma de consultoria de adiestramiento\n\nestamos al servicio de su exito\n\nsoluciones integrales para su negocio\n\n\n<h3 id=\"t1\" class=\"\" style=\"color: #FFBF00; position: absolute; z-index: 1;\">programa de consultoria \n		<br></br>de adiestramiento</h3>\n		<h3 id=\"t2\" class=\"\" style=\"visibility: hidden; color: #FFBF00; position: absolute; z-index: 2\">soluciones integrales para su negocio</h3>",
+			"settings":
+			{
+				"buffer_size": 455,
+				"line_ending": "Unix",
+				"name": "clave para animaciones"
 			}
 		},
 		{
@@ -219,7 +260,23 @@
 			"file": "app/views/layouts/master.blade.php",
 			"settings":
 			{
-				"buffer_size": 4706,
+				"buffer_size": 5969,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/animate.css",
+			"settings":
+			{
+				"buffer_size": 69012,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 132775,
 				"line_ending": "Unix"
 			}
 		},
@@ -235,7 +292,7 @@
 			"file": "app/views/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 1468,
+				"buffer_size": 2241,
 				"line_ending": "Unix"
 			}
 		},
@@ -259,7 +316,7 @@
 			"file": "app/views/servicios.blade.php",
 			"settings":
 			{
-				"buffer_size": 3438,
+				"buffer_size": 3465,
 				"line_ending": "Unix"
 			}
 		}
@@ -271,10 +328,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 280.0,
-		"last_filter": "",
+		"height": 117.0,
+		"last_filter": "Package Control: ins",
 		"selected_items":
 		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
 			[
 				"pac",
 				"Package Control: Install Package"
@@ -308,6 +373,14 @@
 	},
 	"file_history":
 	[
+		"/home/accexs/.config/sublime-text-3/Packages/User/sftp_servers/prolearning.com.ve",
+		"/home/accexs/.homestead/Homestead.yaml",
+		"/home/accexs/Dropbox/Apps/Heroku/README.txt",
+		"/home/accexs/Projects/edaconsultores.local/public/anm/responsive.html",
+		"/home/accexs/Projects/edaconsultores.local/public/anm/b1781d2cb1cb29d1450c0204493479aaebedaa76c48e/b1781d2cb1cb29d1450c0204493479aaebedaa76c48e.html",
+		"/home/accexs/Desktop/anim/embed.html",
+		"/home/accexs/Projects/kryptoscorp.local/app/views/ventas.blade.php",
+		"/home/accexs/Projects/edaconsultores.local/public/js/bootstrap.js",
 		"/home/accexs/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/home/accexs/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/accexs/Projects/ninja.local/app/config/production/app.php",
@@ -377,7 +450,6 @@
 		"/home/accexs/Projects/prolearning.local/htdocs/index3.php",
 		"/home/accexs/Projects/prolearning.local/htdocs/index2.php",
 		"/home/accexs/Projects/prolearning.local/htdocs/index1.php",
-		"/home/accexs/.homestead/Homestead.yaml",
 		"/home/accexs/Projects/prolearning.local/logs/W3SVC160/u_ex141003.log",
 		"/home/accexs/.cache/.fr-HWfsOG/MS8-8817SENDTEL/modemsetup/DriverDirectory/trendchip-1.2/readme",
 		"/home/accexs/Projects/arbol.local/app/controllers/HomeController.php",
@@ -428,9 +500,7 @@
 		"/home/accexs/Projects/edaconsultores.local/app/views/home.blade.php",
 		"/home/accexs/Projects/edaconsultores.local/app/views/layouts/master.blade.php",
 		"/home/accexs/Projects/arbol.local/app/config/local/database.php",
-		"/home/accexs/Projects/arbol.local/composer.json",
-		"/home/accexs/.config/sublime-text-3/Packages/Laravel 4 Artisan/Laravel 4 Artisan.sublime-settings",
-		"/home/accexs/Projects/arbol.local/app/views/admarbol.blade.php"
+		"/home/accexs/Projects/arbol.local/composer.json"
 	],
 	"find":
 	{
@@ -448,6 +518,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"551ae7386c25dxtBlmLauCS3Zh6AqfC8E.png",
+			"img",
+			"logo",
+			"noso",
+			"fade",
 			"string",
 			"300",
 			"arbol",
@@ -501,7 +576,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -510,27 +585,58 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 973,
+						"buffer_size": 940,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								392,
-								392
+								931,
+								931
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"auto_name": "clave para animaciones",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -540,7 +646,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "app/controllers/EdaController.php",
 					"semi_transient": false,
 					"settings":
@@ -558,6 +664,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -565,52 +672,118 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "app/views/layouts/master.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4706,
+						"buffer_size": 5969,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5913,
+								5913
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2788.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/css/animate.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 69012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68798,
+								68798
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 57494.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
+					"file": "public/css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 132775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4687,
+								4687
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"incomplete_sync": null,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 670.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 6,
 					"file": "app/views/contacto.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -628,6 +801,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -635,40 +809,42 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "app/views/home.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1468,
+						"buffer_size": 2241,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								752,
+								752
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 66.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "app/views/nosotros.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -680,24 +856,26 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								450,
+								450
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "app/views/pca.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -715,6 +893,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -722,28 +901,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "app/views/servicios.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3438,
+						"buffer_size": 3465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								171,
+								171
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -751,7 +932,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -812,6 +993,10 @@
 	{
 		"height": 0.0
 	},
+	"output.sftp":
+	{
+		"height": 112.0
+	},
 	"pinned_build_system": "",
 	"project": "edaconsultores.sublime-project",
 	"replace":
@@ -830,12 +1015,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Resources/kryptoscorp.local/kryptoscorp.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -846,7 +1035,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 3,
+	"selected_group": 2,
 	"settings":
 	{
 	},
